@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="scheduler_dm">
+    <output-path>$PROJECT_DIR$/out/artifacts/scheduler_dm</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="scheduler_dm.jar">
+      <element id="module-output" name="OP_Scheduler_DM" />
+    </root>
+  </artifact>
+</component>

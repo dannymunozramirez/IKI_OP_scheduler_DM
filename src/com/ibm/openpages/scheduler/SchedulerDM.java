@@ -2,10 +2,12 @@ package com.ibm.openpages.scheduler;
 
 
 import com.ibm.openpages.api.scheduler.AbstractScheduledProcess;
-import com.ibm.openpages.api.trigger.ext.DefaultEventHandler;
 
 public class SchedulerDM extends AbstractScheduledProcess {
 
+    public SchedulerDM() {
+        super(4);
+    }
 
     public SchedulerDM(int processType) {
         super(processType);
@@ -14,7 +16,12 @@ public class SchedulerDM extends AbstractScheduledProcess {
     @Override
     public void execute() throws Exception {
 
-        System.out.println("************************ Test ************************");
+        try {
+            System.out.println("************************ Test ************************");
+
+        } catch (Exception ex) {
+            System.out.println("Exception occur: " + ex);
+        }
 
     }
 }
