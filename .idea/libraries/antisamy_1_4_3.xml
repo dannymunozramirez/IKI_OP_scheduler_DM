@@ -117,6 +117,9 @@
       <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OP_8.2/wink-1.2.1-incubating.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OP_8.2/wsdl4j.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OP_8.2/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OtherLibOP/aopalliance.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OtherLibOP/jsp-api-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Develop/Ikigai/OPLibraries/OtherLibOP/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
